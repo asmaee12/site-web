@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.navbar {
+    background: linear-gradient(135deg, #1a5f1a, #2d8b2d);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu a:hover, .menu a.active {
+    background-color: rgba(255,255,255,0.2);
+}
+
+
+.page-home {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?w=1200') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+
+.contenu-home h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    
+    
+    animation: fadeIn 2s ease-in;
+}
+
+.texte-arabe {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.btn-explore {
+    display: inline-block;
+    background-color: #e67e22;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+.btn-explore:hover {
+    background-color: #d35400
+}

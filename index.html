@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Morocco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🇲🇦 Discover Morocco : Asmae El housna ERRAKI</div>
+        <ul class="menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#cities">Cities</a></li>
+            <li><a href="#food">Food</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="page-home">
+        <div class="contenu-home">
+            <h1 class="titre-anime">Welcome to Morocco</h1>
+            <p class="texte-arabe">مرحباً بكم في المغرب</p>
+            <a href="#cities" class="btn-explore">Explore Now</a>
+        </div>
+    </section>
+
+    <section id="cities" class="page-cities">
+        <h2>🏛️ Les villes du Maroc</h2>
+        
+        <div class="grille-villes">
+            
+            
+            <div class="carte-ville">
+                <div class="image-ville" style="background-color: #e8d5b7;">
+                    <span>🌊</span>
+                </div>
+                <h3>Tanger</h3>
+                <p class="description">La ville du détroit de Gibraltar, connue pour ses plages et sa médina.</p>
+                <div class="monuments">
+                    <strong>Monuments :</strong> Kasbah, Médina, Grottes d'Hercule
+                </div>
+                <button class="btn-read" data-target="info-tanger">Read More ▾</button>
+                <div id="info-tanger" class="info-plus" style="display: none;">
+                    <p>Tanger est une ville portuaire située au nord du Maroc. Elle est célèbre pour sa position stratégique entre la Méditerranée et l'Atlantique. La ville attracts les artistes et les écrivains depuis des décennies.</p>
+                </div>
+            </div>
+
+            
+            <div class="carte-ville">
+                <div class="image-ville" style="background-color: #d4a574;">
+                    <span>🏰</span>
+                </div>
+                <h3>Rabat</h3>
+                <p class="description">La capitale administrative du Maroc, ville impériale historique.</p>
+                <div class="monuments">
+                    <strong>Monuments :</strong> Tour Hassan, Méchouar, Kasbah des Oudayas
+                </div>
+                <button class="btn-read" data-target="info-rabat">Read More ▾</button>
+                <div id="info-rabat" class="info-plus" style="display: none;">
+                    <p>Rabat est la capitale du Maroc depuis 1912. Elle possède un patrimoine historique riche avec la Tour Hassan inachevée et laKasbah des Oudayas, classée au patrimoine mondial de l'UNESCO.</p>
+                </div>
+            </div>
+
+            
+            <div class="carte-ville">
+                <div class="image-ville" style="background-color: #c9a66b;">
+                    <span>🕌</span>
+                </div>
+                <h3>Marrakech</h3>
+                <p class="description">La ville rouge, célèbre pour ses souks et sa place Jemaa el-Fnaa.</p>
+                <div class="monuments">
+                    <strong>Monuments :</strong> Jardin Majorelle, Palais Bahia, Médina
+                </div>
+                <button class="btn-read" data-target="info-marrakech">Read More ▾</button>
+                <div id="info-marrakech" class="info-plus" style="display: none;">
+                    <p>Marrakech, aussi appelée "la ville rouge", est une destination touristique majeure. Sa médina traditionnelle, ses jardins luxuriants et sa célèbre place Jemaa el-Fnaa attirent des millions de visiteurs chaque année.</p>
+                </div>
+            </div>
+
+            
+            <div class="carte-ville">
+                <div class="image-ville" style="background-color: #b8956e;">
+                    <span>📜</span>
+                </div>
+                <h3>Fès</h3>
+                <p class="description">La plus ancienne ville impériale, capitale spirituelle du Maroc.</p>
+                <div class="monuments">
+                    <strong>Monuments :</strong> Médina de Fès, Université Al Quaraouiyine, Tanneries
+                </div>
+                <button class="btn-read" data-target="info-fes">Read More ▾</button>
+                <div id="info-fes" class="info-plus" style="display: none;">
+                    <p>Fès est considérée comme la capitale spirituelle et culturelle du Maroc. Sa médina, Fès el-Bali, est l'une des plus anciennes au monde et abrite l'université Al Quaraouiyine, fondée en 859.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="food" class="page-food">
+        <h2>🍽️ Saveurs du Maroc</h2>
+        
+        <div class="grille-plats">
+            
+           
+            <div class="carte-plat">
+                <div class="image-plat" style="background-color: #d2691e;">
+                    <div class="overlay-plat">
+                        <p>Plat mijoté aux saveurs orientale</p>
+                    </div>
+                    <span class="emoji-plat">🍲</span>
+                </div>
+                <h3>Tagine</h3>
+                <button class="btn-modal" data-modal="modal-tagine">Voir plus</button>
+            </div>
+
+           
+            <div class="carte-plat">
+                <div class="image-plat" style="background-color: #daa520;">
+                    <div class="overlay-plat">
+                        <p>Semoule aux légumes et viande</p>
+                    </div>
+                    <span class="emoji-plat">🥘</span>
+                </div>
+                <h3>Couscous</h3>
+                <button class="btn-modal" data-modal="modal-couscous">Voir plus</button>
+            </div>
+
+            
+            <div class="carte-plat">
+                <div class="image-plat" style="background-color: #8b4513;">
+                    <div class="overlay-plat">
+                        <p>Soupe traditionnelle berbère</p>
+                    </div>
+                    <span class="emoji-plat">🥣</span>
+                </div>
+                <h3>Harira</h3>
+                <button class="btn-modal" data-modal="modal-harira">Voir plus</button>
+            </div>
+
+            
+            <div class="carte-plat">
+                <div class="image-plat" style="background-color: #deb887;">
+                    <div class="overlay-plat">
+                        <p>Gâteau traditionnel au miel</p>
+                    </div>
+                    <span class="emoji-plat">🍪</span>
+                </div>
+                <h3>Ghriba</h3>
+                <button class="btn-modal" data-modal="modal-ghriba">Voir plus</button>
+            </div>
+
+        </div>
+    </section>
+
+    
+    
+    <div id="modal-tagine" class="modal" style="display: none;">
+        <div class="contenu-modal">
+            <span class="fermer-modal">&times;</span>
+            <h3>🍲 Tagine</h3>
+            <p>Le tagine est un plat traditionnel marocain nommé d'après le ustensile de cuisson en terre cuite dans lequel il est préparé. Il peut contenir de l'agneau, du poulet, du bœuf ou des légumes, cuisson lente avec des épices comme le cumin, le paprika et la coriandre.</p>
+            <p><strong>Temps de cuisson :</strong> 1h30 à 2h</p>
+            <p><strong>Ingrédients principaux :</strong> viande, olives, citron confit, oignons, épices</p>
+        </div>
+    </div>
+
+    
+    <div id="modal-couscous" class="modal" style="display: none;">
+        <div class="contenu-modal">
+            <span class="fermer-modal">&times;</span>
+            <h3>🥘 Couscous</h3>
+            <p>Le couscous est plat emblématique du Maghreb. Il est préparé avec de la semoule de blé, des légumes (courgettes, carottes, navets) et de la viande (agneau ou poulet). C'est un plat familial traditionnellement préparé le vendredi.</p>
+            <p><strong>Temps de préparation :</strong> 45 min</p>
+            <p><strong>Servi avec :</strong> sauce piquante (harissa), raisins secs, pois chiches</p>
+        </div>
+    </div>
+
+   
+    <div id="modal-harira" class="modal" style="display: none;">
+        <div class="contenu-modal">
+            <span class="fermer-modal">&times;</span>
+            <h3>🥣 Harira</h3>
+            <p>La harira est une soupe traditionnelle marocaine, particulièrement populaire pendant le Ramadan. Elle est préparée avec des tomates, des pois chiches, des Lentilles, de la viande et des pâtes.</p>
+            <p><strong>Occasion :</strong> Servie pour rompre le jeûne (iftar)</p>
+            <p><strong>Ingrédients :</strong> tomates, oignons, céleri, riz, herbes fraîches</p>
+        </div>
+    </div>
+
+    
+    <div id="modal-ghriba" class="modal" style="display: none;">
+        <div class="contenu-modal">
+            <span class="fermer-modal">&times;</span>
+            <h3>🍪 Ghriba</h3>
+            <p>La ghriba est un gâteau traditionnel marocain à base d'amandes, de sucre et d'œufs. C'est un dessert très populaire, surtout pendant les fêtes et les mariages. Sa texture est moelleuse et parfumée à l'eau de fleur d'oranger.</p>
+            <p><strong>Particularité :</strong> Décorée avec des amandes entières</p>
+            <p><strong>Autres noms :</strong> Ghribiya, bryou</p>
+        </div>
+    </div>
+
+    <section id="culture" class="page-culture">
+        <h2>🎭 Culture & Traditions</h2>
+        
+       
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <div class="slide-content" style="background: linear-gradient(45deg, #c0392b, #e74c3c);">
+                    <span class="emoji-slide">👗</span>
+                    <h3>Le vêtement traditionnel</h3>
+                    <p>Le djellaba et la kaftan sont les vêtements traditionnels marocains</p>
+                </div>
+            </div>
+            <div class="slide fade">
+                <div class="slide-content" style="background: linear-gradient(45deg, #8e44ad, #9b59b6);">
+                    <span class="emoji-slide">💍</span>
+                    <h3>Les mariages marocains</h3>
+                    <p>Des cérémonies riche en couleurs, musique et traditions ancestrales</p>
+                </div>
+            </div>
+            <div class="slide fade">
+                <div class="slide-content" style="background: linear-gradient(45deg, #16a085, #1abc9c);">
+                    <span class="emoji-slide">🎵</span>
+                    <h3>La musique traditionnelle</h3>
+                    <p>Le raï, le gnawa et la musique andalouse enchantent les soirées</p>
+                </div>
+            </div>
+            <div class="slide fade">
+                <div class="slide-content" style="background: linear-gradient(45deg, #f39c12, #f1c40f);">
+                    <span class="emoji-slide">🎉</span>
+                    <h3>Les festivals</h3>
+                    <p>Marrakech, Fès et Essaouira accueillent des festivals internationaux</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <div style="text-align: center; margin-top: 20px;">
+            <span class="point" onclick="currentSlide(1)"></span>
+            <span class="point" onclick="currentSlide(2)"></span>
+            <span class="point" onclick="currentSlide(3)"></span>
+            <span class="point" onclick="currentSlide(4)"></span>
+        </div>
+    </section>
+
+    <section id="contact" class="page-contact">
+        <h2>📬 Contact</h2>
+        <form class="formulaire-contact">
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" rows="5" required></textarea>
+            <button type="submit" class="btn-envoyer">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p> Discover Morocco - Créé par Asmae El housna ERRAKI</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
